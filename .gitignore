@@ -1,1 +1,59 @@
-/target
+# === Rust / Cargo ===
+# Ignore build output directories (any crate's target/)
+target/
+**/target/
+
+# Ignore generated documentation and incremental compilation caches
+target/doc/
+**/target/doc/
+target/**/incremental/
+
+# Ignore compiled binary artifacts in common build folders
+**/debug/
+**/release/
+
+# Keep Cargo.lock for applications (recommended). If you are authoring a library,
+# you may choose to ignore Cargo.lock, but it's common to commit it for apps.
+
+# === IDEs / Editors ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swm
+*~
+
+# === macOS / Windows system files ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Logs, temporary, and misc files ===
+*.log
+*.tmp
+*.temp
+
+# === Rust analyzer / editor caches ===
+.rustfmt.toml
+/.cargo/
+/.rustup/
+
+# === Other common ignores ===
+# Node modules (if you ever add a frontend)
+node_modules/
+
+# Coverage reports
+coverage/
+
+# Secrets and environment files
+.env
+.env.local
+
+# Ignore compiled artifacts that might be present in subfolders
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+
+# End of .gitignore/target
