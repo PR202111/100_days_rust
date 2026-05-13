@@ -2,7 +2,7 @@
 # Ignore build output directories (any crate's target/)
 target/
 **/target/
-
+Cargo.lock
 # Ignore generated documentation and incremental compilation caches
 target/doc/
 **/target/doc/

@@ -1,0 +1,2 @@
+this is a sample file for testing the word count
+in day 5
