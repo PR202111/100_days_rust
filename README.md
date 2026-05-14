@@ -1,11 +1,11 @@
-🦀 100 Days of Rust
+🦀 Learning Rust
 
-Welcome to my 100 Days of Rust challenge!
-This repository documents my journey of learning and building with the Rust programming language for 100 consecutive days.
+Welcome to my Rust learning practice repository!
+This repository documents my journey of learning and practicing the Rust programming language through daily exercises and small projects.
 
 🎯 Goal
 
-To become proficient in Rust by writing code every day — from small exercises to real-world projects — and sharing my progress publicly.
+To become proficient in Rust by building different projects and exercises — from small programs to more complex applications — and documenting my learning progress.
 
 🦀 Why Rust?
 
@@ -25,23 +25,21 @@ Build a few real-world projects along the way
 Make sure you have Rust installed:
 curl https://sh.rustup.rs -sSf | sh
 
-Then, clone the repo and run any day's code:
-git clone https://github.com/<your-username>/100-days-of-rust.git
-cd 100-days-of-rust/day01
+Then, navigate to any day's project and run it:
+cd day1/hello_rust
 cargo run
 
-🗓️ Progress Tracker
-Day	Topic / Project	Status
-1	Hello, Rust! & Cargo Basics	✅
-2	Variables, Ownership & Borrowing	✅
-3	Structs & Enums	🔄
 
-🏁 Final Goal
+🏁 Learning Objectives
 
-At the end of 100 days, I plan to:
+Through this practice repository, I aim to:
 
-Build at least 3 complete projects
+- Master Rust fundamentals (ownership, borrowing, lifetimes)
+- Get comfortable with Cargo and package management
+- Build practical command-line applications
+- Understand error handling and best practices
 
-Publish a Rust crate
+📄 License
 
-Write a blog post summarizing the journey 🚀
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
