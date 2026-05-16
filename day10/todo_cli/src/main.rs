@@ -37,7 +37,7 @@ fn main(){
 }
 
 fn get_input(prompt: &str)->String{
-    println!("{}",prompt);
+    print!("{}",prompt);
     io::stdout().flush().unwrap();
     let mut input = String::new();
     io::stdin()
